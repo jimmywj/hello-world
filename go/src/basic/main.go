@@ -10,7 +10,8 @@ func main() {
 
 	numbers := [6]int{2, 3, 5, 7, 11, 13}
 	fmt.Println(numbers)
-	var k []int = numbers[1:2]
+
+	var k []int = numbers[1:2] // slice
 	fmt.Println(k,a)
 
 	module1.PublicFunc(a)
